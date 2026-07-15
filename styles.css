@@ -637,9 +637,32 @@ h4 {
 
 .process-list span {
   display: inline-flex;
-  margin-bottom: 34px;
+  margin-bottom: 18px;
   color: var(--color-clay);
   font-weight: 800;
+}
+
+.process-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 26px;
+  border: 1px solid rgba(83, 104, 90, 0.16);
+  border-radius: 16px;
+  background: var(--color-surface-warm);
+  color: var(--color-accent-dark);
+}
+
+.process-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
 
 .process-list h3 {
@@ -946,6 +969,10 @@ h4 {
   }
 
   .process-list span {
+    margin-bottom: 12px;
+  }
+
+  .process-icon {
     margin-bottom: 18px;
   }
 
