@@ -628,6 +628,8 @@ h4 {
 
 .process-list li {
   position: relative;
+  display: flex;
+  flex-direction: column;
   min-height: 250px;
   border: 1px solid rgba(226, 216, 201, 0.82);
   border-radius: var(--radius-md);
@@ -643,23 +645,20 @@ h4 {
 }
 
 .process-icon {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 46px;
-  height: 46px;
-  margin-bottom: 26px;
-  border: 1px solid rgba(83, 104, 90, 0.16);
-  border-radius: 16px;
-  background: var(--color-surface-warm);
+  width: 62px;
+  height: 62px;
+  margin: auto auto 0;
   color: var(--color-accent-dark);
 }
 
 .process-icon svg {
-  width: 24px;
-  height: 24px;
+  width: 42px;
+  height: 42px;
   stroke: currentColor;
-  stroke-width: 1.8;
+  stroke-width: 1.65;
   stroke-linecap: round;
   stroke-linejoin: round;
   fill: none;
@@ -670,7 +669,7 @@ h4 {
 }
 
 .process-list p {
-  margin-bottom: 0;
+  margin-bottom: 22px;
   font-size: 0.95rem;
 }
 
@@ -973,7 +972,7 @@ h4 {
   }
 
   .process-icon {
-    margin-bottom: 18px;
+    margin-top: 18px;
   }
 
   .about-panel,
